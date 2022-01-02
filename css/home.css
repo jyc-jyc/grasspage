@@ -1,10 +1,10 @@
 @font-face {
     font-family: "OPPOSans";
-    src: url(../font/OPPOSans.ttf);
+    src: url(../fonts/OPPOSans.ttf);
 }
 @font-face {
     font-family: "OPPOSans Bold";
-    src: url("../font/OPPOSans B.ttf");
+    src: url("../fonts/OPPOSans B.ttf");
 }
 /* @keyframe fadein{
     from { background: rgba(255, 255, 255, 0.6); }
