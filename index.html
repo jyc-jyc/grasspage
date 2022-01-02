@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>生草主页</title>
+        <link rel="icon" href="img/favicon.png">
+        <link rel="stylesheet" href="./css/home.css">
+        <link rel="stylesheet" href="./css/page.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <!--使用Font Awesome 4.7.0-->
+        <link rel="stylesheet" href="./css/fa.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="./js/functions.js"></script>
+    </head>
+    <body>
+        <div class="background"></div>
+        <div class="bodycover" id="cov99"></div>
+        <div class="bodycover" id="cov102"></div>
+        <!--左侧菜单栏-->
+        <div class="leftmenu">
+            <div class="divider" style="height: 40px;"></div>
+            <img class="leftmenu_img" src="img/favicon.png">
+            <div class="leftmenu_b" title="首页" style="background: linear-gradient(to bottom right, #548235, #2E441F);"><img src="img/Home_on.png"></div>
+            <a href="about.html"><div class="leftmenu_b" title="关于"><img src="img/About.png"></div></a>
+            <div class="menu_balence"></div>
+            <div class="leftmenu_b" id="more" title="更多"><img src="img/More.png"></div>
+        </div>
+        <!--左侧折叠窗口-->
+        <div class="left_menu_extra">
+            <img class="lme_close" id="lmeClose" src="img/leftmenuextra/close.svg">
+            <div class="page_box mw ofa" style="height: calc(100% - 50px); margin-top: 50px;">
+                <div class="page_box mw">
+                    <div class="page_block">
+                        <img class="mw ah" src="./img/allimgs/headerimage.jpg">
+                    </div>
+                </div>
+                <a title="生草博客" href="https://gblog.tech"><div class="page_button_long">
+                    <img src="img/favicon.png">
+                    <span>生草博客</span>
+                </div></a>
+                <div class="divider" style="height: 10px;"></div>
+                <a title="SEC社区" href="https://sec.estu.site"><div class="page_button_long">
+                    <img src="img/leftmenuextra/sec.png">
+                    <span>SEC社区</span>
+                </div></a>
+                <div class="page_box mw">
+                    <div class="page_block">
+                        <b><p class="page_h3">测试组件</p></b>
+                        <p>QwQ</p>
+                    </div>
+                </div>
+                <div class="page_box mw">
+                    <div class="page_block">
+                        <b><b><p class="page_h3" id="cdtime_2" style="color: #C22E46;"></p></b></b>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--右侧正文内容-->
+        <div class="contentframe">
+            <div class="page_box mw">
+                <div class="page_header" style="background: #548235; user-select: none; color: white;">
+                    <div style="position: absolute; bottom: 50px;">
+                        <p class="page_h2">欢迎来到</p>
+                        <p class="page_h1">原罪的个人主页</p>
+                    </div>
+                </div>
+            </div>
+            <div class="page_box mw">
+                <div class="page_block">
+                    <b><p class="page_h3">关于我</p></b>
+                    <p>我是一名中学生。现在正在备战中考ing。<br>我喜欢电脑，经常捣鼓捣鼓编程(尽管我还是小白)。</p>
+                    <a href="./about.html">阅读全文</a>
+                </div>
+            </div>
+            <div class="page_box mw">
+                <div class="page_block">
+                    <b><p class="page_h3">友情链接</p></b>
+                    <a title="生草博客" href="https://gblog.tech"><div class="page_button_long">
+                        <img src="img/favicon.png">
+                        <span>生草博客</span>
+                    </div></a>
+                    <a title="fmkli的鸽子博客" href="https://blog.fmkli.ga"><div class="page_button_long">
+                        <img src="https://fmkli.js.org/Flysoft_files/fmkli.png">
+                        <span>fmkli的鸽子博客</span>
+                    </div></a>
+                    <a title="Flysoft" href="https://flysoft.tk"><div class="page_button_long">
+                        <span>Flysoft</span>
+                    </div></a>
+                </div>
+            </div>
+            <div class="page_box mw">
+                <div class="page_block">
+                    <b><p id="cdtime" style="color: #C22E46; margin-bottom: 10px"></p></b>
+                    <p>Copyright &copy; 2022 Grass S&T</p>
+                    <p>Powered by <a href="https://yz.gblog.tech">yuanzui_cf</a></p>
+                </div>
+            </div>
+        </div>
+        <script src="js/events.js"></script>
+    </body>
+</html>
