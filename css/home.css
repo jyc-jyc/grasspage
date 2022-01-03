@@ -132,8 +132,6 @@ a{
     background: white;
     z-index: 101;
     display: none;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 .lme_close{
     position: absolute;
