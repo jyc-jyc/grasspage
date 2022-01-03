@@ -54,6 +54,7 @@ a{
 }
 .bodycover{
     background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
     position: fixed;
     left: 0px;
     top: 0px;
@@ -77,6 +78,7 @@ a{
     user-select: none;
     z-index: 100;
     background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
     position: fixed;
     float: left;
     left: 0px;
