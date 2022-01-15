@@ -1,4 +1,4 @@
-console.log("\n%c GRASS HOMEPAGE V1.1 %c by yuanzui_cf | yz.gblog.tech", "color:#fff;background:#548235;padding:5px 0;", "color:#eee;background:#444;padding:5px 10px;");
+console.log("\n%c GRASS HOMEPAGE v1.1.01 beta %c by yuanzui_cf | yz.gblog.tech", "color:#fff;background:#548235;padding:5px;", "color:#eee;background:#444;padding:5px;");
 var moreOn = false;
 function lmeDis(){
     if(moreOn == true){

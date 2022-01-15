@@ -10,16 +10,78 @@
     position: relative;
     left: 0px;
     top: 0px;
-    width: calc(100% - 40px);
-    padding: 20px;
+    width: calc(100% - 60px);
+    padding: 30px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.5);
     transition: background,transform 0.2s,0.2s ease;
 }
 .page_block:hover{
-    box-shadow: 0px 0px 10px #74ac5050;
+    box-shadow: 0px 0px 10px #54823550;
     background: white;
-    transform: scale(0.95);
+    transform: scale(0.99);
+}
+.page_post_list{
+    position: relative;
+    user-select: none;
+    overflow: hidden;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+    width: calc(100% - 60px);
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    transition: background,transform 0.2s,0.2s ease;
+    color: #548235 !important;
+    cursor: pointer;
+}
+.page_post_list:hover{
+    box-shadow: 0px 0px 10px #54823550;
+    background: white;
+    transform: scale(0.99);
+}
+.page_post_list_icon{
+    position: absolute;
+    height: 160px;
+    bottom: -20px;
+    right: 50px;
+}
+.page_post_list_content{
+    position: relative;
+    float: left;
+    height: 100px;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 100%;
+}
+.page_post_list_content img{
+    position: relative;
+    float: left;
+    height: calc(100% - 10px);
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #54823550;
+}
+.page_post_list_info{
+    height: 15px;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+.page_post_list_info img{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    float: left;
+}
+.page_post_list_info span{
+    position: relative;
+    float: left;
+    font-size: 12.5px;
 }
 .page_header{
     position: relative;
@@ -32,21 +94,47 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px #54823550;
 }
+.page_button{
+    position: relative;
+    margin-top: 5px;
+    display: inline-block;
+    height: 20px;
+    left: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    transition: background,transform 0.2s,0.2s ease;
+}
+.page_button:hover{
+    transform: scale(0.95);
+    text-decoration: none !important;
+    background: #b0cf9c;
+    box-shadow: 0px 0px 10px #54823550;
+    cursor: pointer;
+}
+.page_button img,i{
+    position: relative;
+    float: left;
+    height: 100%;
+    width: auto;
+    margin-right: 5px;
+}
+.page_button span{
+    position: relative;
+    margin-top: 0px;
+}
 .page_button_long{
     position: relative;
     height: 30px;
     left: 0px;
     border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     transition: background,transform 0.2s,0.2s ease;
 }
 .page_button_long:hover{
     background: #74ac5050;
     cursor: pointer;
-    transform: scale(0.95);
+    transform: scale(0.99);
 }
 .page_button_long img{
     height: 100%;
